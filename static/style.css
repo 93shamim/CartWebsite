@@ -1,0 +1,63 @@
+   /* Carousel */
+   .carousel-item img {
+    width: 100%;
+    height: 950px;
+}
+
+.carousel-caption {
+    width: 100%;
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 5px; /* Adjust the distance from the left */
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px; /* Padding for the caption */
+    border-radius: 0px; /* Rounded corners */
+}
+
+.carousel-caption h1 {
+    font-size: 75px; /* Adjust the font size */
+    margin-bottom: 5px; /* Bottom margin for the heading */
+}
+
+.carousel-caption p {
+    font-size: 30px; /* Adjust the font size */
+    margin-bottom: 0; /* Remove default bottom margin for the paragraph */
+}
+
+
+
+/* Grid */
+.grid-container {
+    max-width: 100%;
+    padding: 0 20px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item {
+    flex: 0 0 calc(25% - 20px); /* Adjust column width and spacing */
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.product-card {
+    width: 100%;
+    border: 1px solid #ccc; /* Optional: Add border to product cards */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+
+
+    
